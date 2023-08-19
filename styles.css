@@ -1,0 +1,245 @@
+/* top line */
+
+.container-1{
+    padding:5% 20%;
+    background-color: #fff;
+    text-align: center;
+}
+
+/* css of top line when width is greater than 992px */
+
+.drum-kit{
+   width:100%;
+   height:auto;
+}
+.col-drum{
+   font-size: 2.5rem;
+   padding: 5% 2% 4% 24%;
+}
+.col-kit{
+   font-size: 2.5rem;
+   padding: 5% 31% 4% 2%;
+}
+
+
+
+
+
+/* css of body */
+
+.container-2{
+    background-color:antiquewhite;
+    padding:10% 2% 100% 2%;
+    text-align: center;
+}
+
+/* drum-btn */
+.drum-btn{
+    border-radius: 250%;
+ }
+ .drum-img{
+     width:62%;
+     height:auto;
+ }
+ 
+ 
+ /* guitar-btn */
+ .guitar-btn{
+     border-radius:250%;
+ }
+ .guitar-img{
+     width:62%;
+     height:auto;
+     transform: rotate(15deg);
+ }
+ 
+ 
+ /* piano-btn */
+ .piano-btn{
+     border-radius: 250%;
+ }
+ .piano-img{
+     width:52%;
+     height:auto;
+     margin-top: 4%;
+ }
+ 
+ 
+ /* violen-btn */
+ .violen-btn{
+     border-radius: 350%;
+ }
+ .violen-img{
+     width: 36%;
+     height: auto;
+     margin: 0% 14% 0% 14%;
+     transform: rotate(-26deg);
+ }
+ 
+ /* flute-btn */
+ .flute-btn{
+     border-radius: 350%;
+ }
+ .flute-img{
+     width: 42%;
+     height: auto;
+     margin: 6% 14% 0% 14%;
+     transform: rotate(-4deg);
+ }
+
+ /* hover */
+ .piano-btn:hover,
+ .guitar-btn:hover,
+ .flute-btn:hover,
+ .drum-btn:hover,
+ .violen-btn:hover{
+    background-color: aquamarine;
+ }
+ 
+
+
+
+
+
+@media  (max-width:992px) and (min-width:767px) {
+    
+/* css of top line when width is in between 992px and 767px */
+.drum-kit{
+    width:60%;
+}
+.col-drum{
+    font-size: 2.5rem;
+    padding: 5% 1% 4% 14%;
+}
+.col-kit{
+    font-size: 2.5rem;
+    padding: 5% 18% 4% 2%;
+}
+
+    
+/* css body when width is in between 992px and 767 px */
+
+.container-2{
+    padding:10% 18%;
+}
+
+/* flute */
+.flute-img{
+    width: 63%;
+    height: auto;
+    margin: 13% 14% 0%;
+    transform: rotate(-4deg);
+}
+
+/* piano */
+.piano-img {
+    width: 48%;
+    height: auto;
+    margin-top: 6%;
+}
+
+/* drum */
+.drum-img {
+    width: 47%;
+    height: auto;
+    margin: 7% 2%;
+}
+
+/* violen */
+.violen-btn,
+.guitar-btn{                 /* because violen and guitar have the same button effects in this dimension */
+    border-radius: 50%;
+    margin: 8% 0%;
+}
+.violen-img {
+    width: 34%;
+    height: auto;
+    margin: 0% 14% 0% 14%;
+    transform: rotate(-26deg);
+    
+}
+
+/* guitar */
+.guitar-img {
+    width: 38%;
+    height: auto;
+    transform: rotate(15deg);
+}
+
+    
+} 
+
+
+
+
+@media (max-width:768px){
+
+
+ /* css of top line when width is below 768px */
+    
+    .drum-kit{
+        width:7rem;
+    }
+    .col-drum{
+        font-size: 2.5rem;
+        padding:2% 0%;
+     }
+
+     .col-kit{
+        font-size: 2.5rem;
+        padding:0% 19%;
+     }
+
+/* css of body when width is below 768px */
+
+   .container-2{
+    padding:6% 38%;
+   }
+
+/* flute */
+.flute-btn,
+.guitar-btn,
+.violen-btn,
+.drum-btn,
+.flute-btn {
+    border-radius: 45%;
+    margin: 10% 0%;
+}
+.flute-img {
+    width: 58%;
+    height: 82%;
+    margin: 5% 16% 0%;
+    transform: rotate(-2deg);
+}
+
+/* piano */
+.piano-img {
+    width: 45%;
+    height: auto;
+    margin-top: 2%;
+}
+
+/* drum */
+.drum-img {
+        width: 45%;
+        height: auto;
+}
+
+/* guitar */
+.guitar-img {
+        width: 50%;
+        height: auto;
+        transform: rotate(15deg);
+}
+
+/* violen */
+.violen-img {
+        width: 48%;
+        height: auto;
+        margin: 0% 14% 0% 14%;
+        transform: rotate(-26deg);
+}
+
+
+}
+
